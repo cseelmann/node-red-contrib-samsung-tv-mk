@@ -8,6 +8,12 @@
   },
   "author": "Martti Kuldma",
   "license": "MIT",
+  "keywords": ["node-red", "Samsung"],
+  "homepage": "https://github.com/marttiku/node-red-contrib-samsung-tv-mk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marttiku/node-red-contrib-samsung-tv-mk.git"
+  },
   "node-red": {
     "nodes": {
       "Samsung-TV": "lib/samsung.js"
