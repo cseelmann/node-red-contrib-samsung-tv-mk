@@ -1,0 +1,19 @@
+{
+  "name": "node-red-contrib-samsung-tv-mk",
+  "version": "0.1.0",
+  "description": "Node-red node to control Samsung TV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martti Kuldma",
+  "license": "ISC",
+  "node-red": {
+    "nodes": {
+      "Samsung-TV": "lib/samsung.js"
+    }
+  },
+  "dependencies": {
+    "samsung-tv-control": "^1.1.1"
+  }
+}
