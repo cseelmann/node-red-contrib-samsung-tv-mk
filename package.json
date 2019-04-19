@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-samsung-tv-mk",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Node-red node to control Samsung TV",
   "main": "index.js",
   "scripts": {
