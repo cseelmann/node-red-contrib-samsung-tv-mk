@@ -76,7 +76,7 @@
                 .find('option').remove();
 
             $.ajax({
-                url: '/samsungtv/keys',
+                url: 'samsungtv/keys',
                 success: function (data) {
                     const keys = Object.keys(JSON.parse(data))
 
